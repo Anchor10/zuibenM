@@ -1,0 +1,77 @@
+.slide-txt {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.slide-txt .txt_bg {
+    width: 100%;
+    height: 40px;
+    background: #0f0f0f;
+    opacity: 0.6;
+}
+
+.slide-txt p {
+    width: 76%;
+    box-sizing: border-box;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    overflow: hidden;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 0 10px 0 0;
+    margin: 0;
+}
+
+.swiper-slide {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-container-horizontal>.swiper-pagination-progress {
+    top: auto;
+    bottom: 0;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 2px;
+}
+
+.swiper-pagination {
+    text-align: right;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: 9px;
+    left: -5px;
+}
+
+.swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #fff;
+    opacity: .9;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #007aff;
+}

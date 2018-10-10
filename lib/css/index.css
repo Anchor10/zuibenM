@@ -1,0 +1,437 @@
+.main {
+    margin-top: 10px;
+}
+
+.second-nav {
+    border-top: 2px solid #209bf7;
+}
+
+.second-nav a {
+    display: block;
+    width: 33.3333%;
+    float: left;
+    line-height: 40px;
+    height: 40px;
+    color: #757575;
+    font-size: 16px;
+    text-align: center;
+}
+
+.second-nav a.on {
+    background: #fff;
+    color: #209bf7;
+}
+
+section {
+    margin: 0;
+    background: #fff;
+    overflow: hidden;
+}
+
+/* recommend */
+
+.recommend .title .title-header {
+    margin: 10px;
+    overflow: hidden;
+}
+
+.recommend .title .title-header .text {
+    float: left;
+    font-size: 16px;
+}
+
+.recommend .title .title-header .more {
+    float: right;
+    font-size: 14px;
+    color: #4fc1e9;
+}
+
+.recommend .title .img-container {
+    margin: 0 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.recommend .title .img-container img {
+    width: 100%;
+}
+
+.game-list {
+    line-height: 1.2;
+}
+
+.game-list .game-item {
+    background: #fff;
+    position: relative;
+    min-height: 84px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.game-list .game-item .game-image {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 64px;
+    height: 64px;
+    border-radius: 5px;
+}
+
+.game-list .game-item .game-detail {
+    padding: 10px 10px 10px 84px;
+}
+
+.game-list .game-item .game-detail .game-name {
+    font-size: 16px;
+    color: #999;
+}
+
+.game-list .game-item .game-detail .game-type {
+    margin: 6px 0;
+    font-size: 14px;
+    color: #999;
+    padding-right: 66px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.game-list .game-item .game-detail .game-type span {
+    color: #dedede;
+}
+
+.game-list .game-item .game-detail .game-boon {
+    font-size: 14px;
+    color: #999;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.game-list .game-item .download {
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    display: block;
+    width: 64px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 2px;
+    background: #25a5f8;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.single-game {
+    margin-top: 8px;
+}
+
+.single-game .title {
+    border-top: 2px solid #209bf7;
+}
+
+.single-game .title .title-header {
+    margin: 10px;
+    overflow: hidden;
+}
+
+.single-game .title .title-header .text {
+    float: left;
+    font-size: 16px;
+}
+
+.single-game .title .title-header .more {
+    float: right;
+    font-size: 14px;
+    color: #4fc1e9;
+}
+
+.single-game .title .img-container {
+    margin: 0 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.single-game .title .img-container img {
+    width: 100%;
+}
+
+.game-recom {
+    margin-top: 10px;
+    background: #fff;
+}
+
+.game-recom .recom-title {
+    border-top: 2px solid #209bf7;
+    border-bottom: 1px solid #e8e8e8;
+    display: flex;
+    height: 45px;
+}
+
+.game-recom .recom-title h4 {
+    font-size: 15px;
+    font-weight: 300;
+    color: #333333;
+    flex: 1;
+    line-height: 45px;
+    text-indent: 40px;
+    background: url(../images/good.png) 10px center no-repeat;
+}
+
+.game-recom .recom-title a {
+    display: block;
+    height: 22px;
+    /* width: 100px; */
+    padding-right: 20px;
+    line-height: 22px;
+    border: 1px solid #dddddd;
+    font-size: 12px;
+    border-radius: 11px;
+    margin-top: 10px;
+    margin-right: 7px;
+    color: #333333;
+    text-indent: 5px;
+    background: url(../images/more.png) right 2px center no-repeat;
+}
+
+.dcatetory {
+    margin-top: 6px;
+    border-top: 1px solid #dddddd;
+    overflow: hidden;
+    padding: 8px 0;
+    background: #fff;
+}
+
+.dcatetory a {
+    white-space: nowrap;
+    background: #f6f6f6;
+    border: #e8e8e8 1px solid;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    width: 23%;
+    margin: 4px 1%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    border-radius: 3px;
+}
+
+.hot_game a {
+    width: 31.3333%
+}
+
+.hot_game a,
+.hot_game a+a {
+    color: #4996ff
+}
+
+.hot_game a+a+a+a {
+    color: #ff5e33
+}
+
+.hot_game a+a+a+a+a+a+a {
+    color: #65bb0a
+}
+
+.hot_game a+a+a+a+a+a+a+a+a+a {
+    color: #4e8fb7
+}
+
+/* 新游 */
+
+.new-chosen {
+    background: #fff;
+    overflow: hidden;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.new-chosen .title-header {
+    margin: 10px;
+    overflow: hidden;
+}
+
+.new-chosen .title-header .text {
+    float: left;
+    font-size: 16px;
+}
+
+.new-chosen .title-header .more {
+    float: right;
+    font-size: 14px;
+    color: #4fc1e9;
+}
+
+.new-chosen .chosen-list {
+    display: flex;
+    width: 100%;
+}
+
+.new-chosen .chosen-list .chosen-item {
+    width: 25%;
+}
+
+.new-chosen .chosen-list .chosen-item a {
+    display: block;
+}
+
+.new-chosen .chosen-list .chosen-item img {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    display: block;
+}
+
+.new-chosen .chosen-list .chosen-item .chosen-name {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 13px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #7f7f7f;
+    margin-top: 5px;
+}
+
+.today-game {
+    margin-top: 8px;
+}
+
+.today-game .title {
+    border-top: 2px solid #209bf7;
+}
+
+.today-game .title .title-header {
+    margin: 10px;
+    overflow: hidden;
+}
+
+.today-game .title .title-header .text {
+    float: left;
+    font-size: 16px;
+}
+
+.today-game .title .title-header .more {
+    float: right;
+    font-size: 14px;
+    color: #4fc1e9;
+}
+
+.today-game .title .img-container {
+    margin: 0 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.today-game .title .img-container img {
+    width: 100%;
+}
+
+.newest {
+    background: #fff;
+    overflow: hidden;
+    border-top: 1px solid #e5e5e5;
+    margin-top: 10px;
+}
+
+.newest .title-header {
+    margin: 10px 10px 5px 10px;
+    overflow: hidden;
+}
+
+.newest .title-header .text {
+    float: left;
+    font-size: 16px;
+}
+
+.newest .title-header .more {
+    float: right;
+    font-size: 14px;
+    color: #4fc1e9;
+}
+
+/* 专辑 */
+
+.grid {
+    padding: 0 10px;
+    background: #fff;
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.grid .column-list {
+    padding-top: 15px;
+    margin-top: 0 !important;
+}
+
+.grid .column-list li {
+    border-radius: 5px;
+    border: #36c5d9 2px solid;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.grid .column-list li .column-img img {
+    width: 100%;
+}
+
+.grid .column-list li .column-info {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-left: 8px;
+    background: url("../images/mask.png") repeat;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.grid .column-list li .column-info:after {
+    content: "";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.grid .column-list li .column-info h4 {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    width: 70%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.grid .column-list li .column-info a {
+    display: block;
+    float: right;
+    margin: 5px 8px 5px 0;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.grid .column-list li .column-info a.blue {
+    background: #0096ff;
+}
+
+.grid .column-list li .column-info a.green {
+    background: #18c338;
+}

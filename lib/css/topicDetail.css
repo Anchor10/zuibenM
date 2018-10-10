@@ -1,0 +1,664 @@
+#head {
+    width: 100%;
+    height: 170px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    zoom: 1
+}
+
+#head h1 {
+    width: auto;
+    height: auto;
+    line-height: 22px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #fff;
+    background: #25a5f8;
+    opacity: 1;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px 8px;
+}
+
+#head img {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+#daodu {
+    margin: 0;
+    padding: 0 0 22px 0;
+    text-align: center;
+    position: relative;
+    zoom: 1
+}
+
+#content,
+#contheme {
+    width: 100%;
+    height: 40px;
+    margin: 0px;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+    z-index: 20
+}
+
+#content .g-cont-scroll,
+#contheme .g-cont-scroll {
+    width: 94%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: 3%;
+    top: 0;
+    padding: 0 90px 0 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+#content .g-cont-scroll p,
+#contheme .g-cont-scroll p {
+    width: 100%;
+    height: auto;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #fff;
+    display: block;
+    overflow: hidden;
+    text-indent: 2em;
+}
+
+#content .g-cont-scroll p strong,
+#contheme .g-cont-scroll p strong {
+    font-size: 12px;
+    font-weight: normal;
+    color: #fff;
+}
+
+#g-black-bg {
+    width: 100%;
+    height: 57px;
+    background: #000;
+    opacity: 0.7;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+#g-look-desc {
+    width: 80px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #fff;
+    background: #25a5f8;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    right: 6px;
+    bottom: 17px;
+    z-index: 20;
+    margin: 0 0 0 0;
+    border-radius: 4px;
+}
+
+#g-desc-bg {
+    width: 80px;
+    height: 25px;
+    background: #000;
+    opacity: 0.7;
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 52px;
+    z-index: 10;
+}
+
+.m-desc-alert {
+    width: 90%;
+    height: auto;
+    max-height: 70%;
+    padding: 18px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 4px;
+    position: fixed;
+    top: 15%;
+    left: 5%;
+    z-index: 99999;
+    overflow: auto
+}
+
+.m-desc-alert p {
+    width: 100%;
+    height: auto;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+    display: block;
+    overflow: hidden;
+    text-indent: 18px;
+}
+
+.m-desc-alert p strong {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#m-close-desc {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    font-weight: normal;
+    background: #333;
+    color: #fff;
+    padding: 2px 6px;
+    display: block;
+    overflow: hidden;
+    position: fixed;
+    right: 5%;
+    top: 15%;
+    z-index: 10;
+    border-radius: 0 0 0 6px
+}
+
+#m-alert-bg {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    display: block;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99998;
+}
+
+/* 手游排行榜 */
+
+.new-game {
+    padding: 10px;
+}
+
+.new-game h3 {
+    text-indent: 10px;
+    border-left: 5px solid #25a5f8;
+    font-weight: 300;
+    background: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    height: 30px;
+    color: #666666;
+}
+
+.g-soft-box {
+    padding: 0 10px 0;
+}
+
+.g-soft-box b {
+    top: 6px;
+}
+
+.g-soft-ul-box {
+    padding: 0 10px;
+}
+
+.g-newgame-ul {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.g-newgame-ul li {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    padding: 0 10px;
+    margin: 10px 0 0 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    zoom: 1
+}
+
+.g-newgame-ul li i {
+    width: 100%;
+    height: 1px;
+    background: #eee;
+    display: block;
+    overflow: hidden;
+}
+
+.g-newgame-ul li .g-a-left {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    overflow: hidden;
+    padding: 10px 70px 10px 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.g-newgame-ul li .g-a-left img {
+    width: 66px;
+    height: 66px;
+    display: block;
+    overflow: hidden;
+    border-radius: 14px;
+}
+
+.g-newgame-ul li .g-a-left p {
+    width: auto;
+    height: auto;
+    display: block;
+    -webkit-box-flex: 1;
+    padding-left: 10px;
+}
+
+.g-newgame-ul li .g-a-left p strong {
+    width: 100%;
+    height: auto;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #333;
+    margin: 3px 0 0 0;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+}
+
+.g-newgame-ul li .g-a-left p b {
+    width: 100%;
+    height: auto;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #A5A5A5;
+    margin: 3px 0 0 0;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+}
+
+.g-newgame-ul li .g-a-left p span {
+    text-indent: 8px;
+    font-size: 12px;
+    color: #fe9056;
+    display: block;
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+    margin-left: -5px;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    margin-top: 5px;
+    border-right: 1px solid #e6e6e6;
+    background: url(../images/edit_bg.png) -3px center no-repeat;
+}
+
+.g-newgame-ul li .g-a-right {
+    width: 52px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    background: #25a5f8;
+    background-size: 434px;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.g-newgame-ul li .g-a-right:active {
+    color: #fff;
+    background: url(../images/home-icon.png) no-repeat -146px -128px #66d105;
+    background-size: 500px
+}
+
+.g-newgame-ul .m-eq3 {
+    margin: 10px 0 0 0;
+}
+
+.g-newgame-ul .m-eq3 i {
+    display: none
+}
+
+.g-newgame-ul li {
+    padding: 0
+}
+
+.g-newgame-ul li .g-a-left {
+    padding: 10px 70px 10px 10px;
+}
+
+.g-newgame-ul li .g-a-left:active {
+    background: #E0E0E0
+}
+
+.g-newgame-ul .m-game-title {
+    font-size: 15px;
+    font-weight: normal;
+    color: #666;
+    text-indent: 10px;
+    padding: 6px 0;
+    border-left: 5px solid #1CCFAC;
+}
+
+.g-newgame-ul .m-game-title span {
+    color: #1CCFAC;
+    font-weight: bold;
+    padding: 0 4px;
+}
+
+.g-top {
+    width: 100%;
+    height: 44px;
+    background: #66d105;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    padding: 0 44px 0 122px;
+}
+
+.g-top .g-logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+
+.surprise {
+    display: block;
+    text-align: center;
+    background: #fff;
+    border-top: 1px solid #f7f7f7;
+    line-height: 41px;
+    height: 41px;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+/* 手游新闻 */
+
+.game-news {
+    padding: 10px;
+    position: relative;
+    padding-bottom:0;
+}
+
+.game-news h3 {
+    text-indent: 10px;
+    border-left: 5px solid #25a5f8;
+    font-weight: 300;
+    background: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    height: 30px;
+    color: #2a2a2a;
+}
+
+.game-news .all {
+    position: absolute;
+    right: 22px;
+    top: 18px;
+    color: #888888;
+}
+
+.news-list {
+    margin-top: 10px;
+}
+
+.news-list .news-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.news-list .news-item .news-img {
+    width: 116px;
+    height: 73px;
+    margin-right: 15px;
+}
+
+.news-list .news-item .news-img img {
+    width: 116px;
+    height: 73px;
+}
+
+.news-list .news-item .news-info {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+
+.news-list .news-item .news-info .news-detail {
+    font-size: 15px;
+    line-height: 24px;
+    height: 48px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.news-list .news-item .news-info .news-detail a {
+    color: #444;
+}
+
+.news-list .news-item .news-info .date {
+    font-size: 12px;
+    color: #9e9e9e;
+    margin-top: 8px;
+    display: block;
+}
+
+/* 找游戏 */
+
+.search-game {
+    margin-bottom: 10px;
+    padding-top: 11px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.search-game h2 {
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.search-game ul {
+    overflow: hidden;
+    margin-top:10px;
+    border-top: 1px dotted #e3e3e3
+}
+
+.search-game li {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 20%;
+    float: left;
+    padding: 8px 0;
+    font-size: 12px;
+    color: #333;
+    border-bottom: 1px dotted #e3e3e3;
+    border-right: 1px dotted #e3e3e3;
+    text-align: center;
+}
+
+.search-game li a {
+    display: inline-block;
+    width: 52px;
+    height: 24px;
+    font-size: 14px;
+    color: #000000;
+    border-radius: 4px;
+    line-height: 24px;
+}
+
+.search-game li:nth-child(5n) {
+    border-right: none
+}
+
+.search-game li:nth-child(2) a {
+    background-color: #ff784f;
+    color: #FFF
+}
+
+.search-game li:nth-child(6) a {
+    background-color: #2bbdc4;
+    color: #FFF
+}
+
+.search-game li:nth-child(9) a {
+    background-color: #1ac269;
+    color: #FFF
+}
+
+.search-game li:nth-child(13) a {
+    background-color: #ffae00;
+    color: #FFF
+}
+
+.search-game li:nth-child(15) a {
+    background-color: #60afe7;
+    color: #FFF
+}
+
+.search-game li:nth-child(17) a {
+    background-color: #868cd8;
+    color: #FFF
+}
+
+.bottom-category,
+.client-wrap,
+.hot-rec {
+    background-color: #fff
+}
+
+.search-game li:nth-last-child(1),
+.search-game li:nth-last-child(2),
+.search-game li:nth-last-child(3),
+.search-game li:nth-last-child(4),
+.search-game li:nth-last-child(5) {
+    border-bottom: none
+}
+
+/* 热门推荐 */
+
+.hot-rec {
+    background-color: #fff
+}
+.hot-rec h2{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.hot-rec {
+    padding-top: 10px;
+    padding-left: 10px;
+    overflow: hidden;
+    margin-bottom:10px;
+}
+
+.hot-rec .none {
+    text-align: center;
+    padding: 15px 0;
+    font-size: .24rem;
+    color: #666
+}
+
+.hot-rec ul{
+    overflow: hidden;
+}
+.hot-rec li {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.hot-rec li .item-hot {
+    display: block;
+    border: 1px solid #e0e0e0
+}
+
+.hot-rec li .pic {
+    display: block;
+    padding-bottom: 56%;
+    background-image: url(http://image.9game.cn/s/uae/g/1m/ngp_portal_mobile/page/homesite/index/images/lazy_av_90b27e8.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.hot-rec li .title {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    height: 30px;
+    line-height: 30px;
+    text-align: center
+}
+.hot-rec .item{
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 0;
+}
+.hot-rec .item a{
+    color:#666666;
+    
+}

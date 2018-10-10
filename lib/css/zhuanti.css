@@ -1,0 +1,82 @@
+.zhuanti_tiitles{ padding:10px; border-bottom:1px solid #eeeeee; overflow:hidden;}
+.zhuanti_tiitles h3{ float:left; font-size:16px; color:#2b2b2b; margin-top:6px;}
+.zhuanti_tiitles a{float:right; color:#999999; font-size:14px;}
+.zhuanti_tiitles a:active{ color:#1f96f2;}
+
+.zt_t_box{ width:100%; padding:10px 0;}
+.zt_t_box li{ width:50%; padding:2px 10px 10px 10px; float:left;}
+.zt_t_box li img{width: 99%;height: 112px; border-radius:6px;}
+.zt_t_box li a{width:100%; display:block; text-align:center;}
+.zt_t_box li a span{ color:#333333; font-size:14px; width:100%; height:20px; line-height:20px; overflow:hidden;}
+.downs_tbox li{ padding:10px 10px 8px 10px; border-bottom:1px solid #eeeeee;overflow: hidden;}
+.products_cont_tit_icon2{ margin-right:8px;margin-bottom: 15px;}
+.products_cont_tit_icon2 img{width:70px; height:70px;}
+.products_cont_right2 .prod_titles2{ font-size:16px; color:#333333; height:24px; overflow:hidden; line-height:24px; width:150px;}
+.products_cont_right2 .prod_titles2 span{margin-left:8px;}
+.products_cont_right2 .prod_titles2 i{ color:#fcb305;}
+.products_cont_right2 p{ line-height:24px;}
+.products_cont_right2 p.prod_txc,.products_cont_right2 p.prod_txc i{ color:#fcb305; font-size:14px; margin-right:3px;}
+.products_cont_right2 p.prod_txc2 span{ display:inline;}
+.products_cont_right2 p.prod_txc2{ font-size:12px; color:#999999;overflow:hidden; line-height:24px; width:160px; height:24px;}
+
+.xz_down{margin-top:18px;}
+.xz_down a{ border:1px solid #51c422; color:#51c422; padding:5px 13px; border-radius:4px;}
+.xz_down a:active{ background-color:#51c422; color:#ffffff;}
+
+
+.lf{
+    float: left;
+}
+.rt{
+    float: right;
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.tab-list {
+    height: 45px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tab-list .tab-item {
+    position: relative;
+    float: left;
+    width: 33.3%;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .tab-list .tab-item.on {
+    color: #65bb0a;
+    border-bottom: 1px solid #65bb0a;
+  }
+  
+  .tab-list .tab-item.on:after, .tab-list .tab-item.on:before {
+    content: ' ';
+    position: absolute;
+    left: 50%;
+    z-index: 8;
+    width: 0;
+    height: 0;
+    margin-left: -8px;
+    border: solid transparent;
+    border-width: 8px;
+  }
+  
+  .tab-list .tab-item.on:before {
+    border-bottom-color: #65bb0a;
+    bottom: 0;
+  }
+  
+  .tab-list .tab-item.on:after {
+    border-bottom-color: #fff;
+    bottom: -1px;
+  }

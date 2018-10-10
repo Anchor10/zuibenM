@@ -1,0 +1,583 @@
+/* 搜索框 */
+
+.search-box {
+    margin: 10px;
+    background: #fff;
+    display: block;
+    border: 1px solid #d2d2d2;
+    height: 40px;
+}
+
+.search-box form {
+    display: flex;
+}
+
+.search-box .search-input {
+    flex: 1;
+    border: 0;
+    color: #333333;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.search-box .search-btn {
+    color: #3388ff;
+    border: 0;
+    outline: none;
+    background: #fff;
+    height: 40px;
+    font-size: 16px;
+    width: 81px;
+    float: right;
+    border-left: 1px solid #f1f1f1;
+    /* font-weight: 800; */
+}
+
+.public {
+    background: #fff;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 10px
+}
+
+.new_public {
+    margin-top: 10px;
+}
+
+.tit {
+    border-bottom: 1px solid #e6e6e6;
+    height: 37px;
+    line-height: 37px;
+    width: 100%;
+    font-size: 15px;
+    color: #737373;
+    position: relative;
+}
+
+.tit .tit_ico {
+    border-bottom: 3px solid #00b3ff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 35px;
+    padding: 0 15px 0 30px
+}
+
+.tit .today_best {
+    background: url(../images/ico_1.png) no-repeat 6% center;
+    background-size: 20px auto;
+}
+
+.tit .edit_recommend {
+    background: url(../images/ico_2.png) no-repeat 6% center;
+    background-size: 20px auto;
+}
+
+.tit .new_game {
+    background: url(../images/ico_3.png) no-repeat 6% center;
+    background-size: 19px auto;
+}
+
+.tit .hot_subject {
+    background: url(../images/ico_4.png) no-repeat 6% center;
+    background-size: 19px auto;
+}
+
+.tit .more_play {
+    background: url(../images/ico_5.png) no-repeat 6% center;
+    background-size: 19px auto;
+}
+
+.tit .game_classify {
+    background: url(../images/ico_6.png) no-repeat 6% center;
+    background-size: 19px auto;
+}
+
+.tit .hot_search {
+    background: url(../images/ico_7.png) no-repeat 6% center;
+    background-size: 19px auto;
+}
+
+.tit .game_intro {
+    background: url(../images/ico_8.png) no-repeat 6% center;
+    background-size: 19px auto;
+}
+
+.tit .game_label {
+    background: url(../images/ico_9.png) no-repeat 6% center;
+    background-size: 19px auto;
+}
+
+.tit .about_game {
+    background: url(../images/ico_10.png) no-repeat 6% center;
+    background-size: 19px auto;
+}
+
+.morelist {
+    clear: both;
+    border-top: 1px solid #e6e6e6;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    line-height: 35px;
+    height: 35px;
+    background: #fafafa;
+}
+
+.morelist a {
+    display: block;
+    font-size: 14px;
+    color: #999;
+}
+
+.morelist p {
+    display: inline-block;
+    background: url(../images/add_1.png) no-repeat left 45%;
+    background-size: 13px auto;
+    padding-left: 18px
+}
+
+.new_morelist {
+    clear: both;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    padding: 5px 0 10px 0
+}
+
+.list_one {
+    margin: 0 10px;
+}
+
+.list_one dl dt {
+    width: 100%;
+    float: left;
+    padding: 5px 0;
+    border-bottom: 1px dashed #e0e0e0;
+    position: relative;
+    z-index: 1
+}
+
+.list_one dl dt:last-child {
+    border: 0;
+}
+
+.list_one dl dt a {
+    width: 100%;
+    float: left;
+    padding: 5px 0;
+    min-height: 70px;
+    position: relative
+}
+
+.list_one dl dt p.p1 {
+    width: 70px;
+    padding: 0 10px 0 0;
+    position: absolute;
+    left: 0;
+    top: 5px
+}
+
+.list_one dl dt p.p1 img {
+    width: 70px;
+    height: 70px;
+    background: #f0f0f0 url(../images/pic_bg.png) center center no-repeat;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.list_one dl dt p.p3 {
+    position: absolute;
+    right: 7px;
+    top: 15px;
+}
+
+.list_one dl dt p.p3 span {
+    background: #82ce62;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    height: 32px;
+    line-height: 34px;
+    text-align: center;
+    width: 61px;
+}
+
+.list_one dl dt p.p2 {
+    margin: 0 70px 0 80px
+}
+
+.list_one dl dt p.p2 i {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    padding: 5px 0 1px 0
+}
+
+.list_one dl dt p.p2 span {
+    display: block;
+    color: #999999;
+    line-height: 20px;
+    padding-top: 5px;
+    font-size: 12px;
+    width: 127%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.list_one dl dt p.p2 img {
+    width: 14px;
+}
+
+.link {
+    clear: both;
+    border-top: 1px dashed #e0e0e0;
+    margin: 0 10px;
+    position: relative;
+    line-height: 35px;
+    height: 35px;
+}
+
+.link img {
+    position: absolute;
+    top: -10px;
+    right: -7px;
+    height: 18px;
+}
+
+.link a {
+    font-size: 12px;
+    height: 35px;
+    overflow: hidden;
+    display: block;
+    color: #737373
+}
+
+.list_one dl dt p.p2 i {
+    float: left;
+    width: 100%;
+}
+
+.list_one dl dt p.p2 i .game_name {
+    float: left;
+    max-width: 68%;
+    font-weight: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.list_one dl dt p.p2 i .bq {
+    float: left;
+    font-weight: normal;
+    color: #fff;
+    font-size: 12px;
+    background: url(../images/bq.png) no-repeat left center #f00;
+    background-size: 4px auto;
+    padding: 0 1px 0 7px;
+    height: 16px;
+    line-height: 16px;
+    margin-left: 1px;
+}
+
+.list_one dl dt p.p2 em {
+    width: 100%;
+    color: #fb9143;
+}
+
+.list_one dl dt p.p2 span {
+    float: left;
+}
+
+.list_two {
+    margin: 0 10px 10px 10px;
+}
+
+.list_two li {
+    width: 100%;
+    float: left;
+    padding-top: 10px;
+}
+
+.list_two li .a_in {
+    width: 50%;
+    float: left;
+}
+
+.list_two li .a_in a {
+    display: inline-block;
+    position: relative;
+    min-height: 70px;
+}
+
+.list_two li a img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.list_two li a p {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.list_two li a p span {
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    margin: 5px 0 8px 0;
+    color: #333;
+    height: 16px;
+    overflow: hidden
+}
+
+.list_two li a p em {
+    background: #00b3ff;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    height: 32px;
+    line-height: 34px;
+    text-align: center;
+    width: 60px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.list_three {
+    margin-right: 10px;
+}
+
+.list_three li {
+    float: left;
+    width: 50%;
+    padding: 10px 0;
+    text-align: center
+}
+
+.list_three li a {
+    display: block;
+    color: #333333;
+    font-size: 12px;
+    margin-left: 10px
+}
+
+.list_three li a img {
+    width: 100%;
+    height: 75px;
+}
+
+.list_three li a p {
+    display: inline-block;
+    line-height: 25px;
+    height: 25px;
+    overflow: hidden;
+    background: url(../images/list_ico1.png) no-repeat left center;
+    background-size: 13px auto;
+    padding-left: 16px;
+    margin-top: 3px
+}
+
+.new_list_three li a p {
+    padding-left: 0;
+    background: none
+}
+
+.list_classify {
+    padding: 10px 0;
+}
+
+.list_classify dt,
+.list_classify dd {
+    float: left;
+    width: 25%;
+    padding: 10px 0;
+    text-align: center
+}
+
+.list_classify dt a,
+.list_classify dd a {
+    display: block;
+    color: #333;
+    font-size: 14px;
+}
+
+.list_classify a span {
+    display: block;
+    margin-top: 8px
+}
+
+.list_classify a img {
+    width: 50px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.list_four {
+    padding: 5px 0
+}
+
+.list_four li {
+    float: left;
+    width: 25%;
+    padding: 10px 0;
+    text-align: center;
+    height: 104px;
+}
+
+.list_four li a {
+    display: block;
+    color: #333;
+    font-size: 14px;
+}
+
+.list_four li a p {
+    display: block;
+    margin-top: 8px;
+    overflow: hidden;
+    height: 40px;
+}
+
+.list_four li a img {
+    width: 62px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.back {
+    float: left
+}
+
+.back a {
+    font-size: 15px;
+    color: #666;
+    line-height: 35px;
+    float: left;
+    background: url(../images/back.png) no-repeat left 45%;
+    background-size: 9px auto;
+    padding-left: 15px;
+    margin-left: 8px
+}
+
+.hot_link {
+    padding: 5px 0 15px 0;
+    font-size: 0
+}
+
+.hot_link a {
+    color: #fff;
+    font-size: 14px;
+    padding: 6px 10px 5px 10px;
+    display: inline-block;
+    margin: 10px 0 0 10px;
+}
+
+.hot_link a.a0 {
+    background: #82ce62
+}
+
+.hot_link a.a1 {
+    background: #fe8727
+}
+
+.hot_link a.a2 {
+    background: #644ab4
+}
+
+.hot_link a.a3 {
+    background: #af9bec
+}
+
+.hot_link a.a4 {
+    background: #a77350
+}
+
+.hot_link a.a5 {
+    background: #7ca2fe
+}
+
+.hot_link a.a6 {
+    background: #f0582e
+}
+
+.hot_link a.a7 {
+    background: #0675c3
+}
+
+.new_public {
+    background: #fff;
+    width: 100%;
+    border-top:1px solid #d6d6d6;
+    /* border-bottom:1px solid #e3e3e3; */
+    margin-top: 10px;
+    margin-bottom: 0! important;
+}
+
+.index_ld a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    position: relative;
+    min-height: 65px;
+}
+
+.index_ld a .p1 {
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.index_ld a .p1 img {
+    width: 64px;
+    height: 64px;
+}
+
+.index_ld a .p2 {
+    color: #373737;
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 12px;
+    margin-left: 90px;
+}
+
+.index_ld a .p2 span {
+    display: block;
+    color: #7a7a7a;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.index_ld a .p3 {
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.index_ld a .p3 span {
+    background: #f43f08;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    height: 32px;
+    line-height: 34px;
+    text-align: center;
+    width: 100%;
+    margin-top: 7px;
+}
